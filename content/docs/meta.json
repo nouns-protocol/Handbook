@@ -1,0 +1,13 @@
+{
+	"title": "Test",
+	"root": true,
+	"pages": [
+		"---Get Started---",
+		"index",
+		"test2",
+		"---Test 1---",
+		"test/index",
+		"test/test1",
+		"test/nested-test"
+	]
+}

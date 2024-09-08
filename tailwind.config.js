@@ -9,5 +9,12 @@ export default {
     './mdx-components.{ts,tsx}',
     './node_modules/fumadocs-ui/dist/**/*.js',
   ],
+  theme: {
+    extend: {
+      fontFamily: {
+        acariSerif: ['Acari Sans', 'sans-serif']
+      },
+    }
+  },
   presets: [createPreset()],
 };
