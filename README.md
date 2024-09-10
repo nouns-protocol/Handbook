@@ -1,26 +1,30 @@
-# Whitepaper
+# Nouns Protocol Whitepaper
 
-This is a Next.js application generated with
-[Create Fumadocs](https://github.com/fuma-nama/fumadocs).
+Nouns Protocol empowers users to lend, borrow, and swap tokens across EVM chains. Unlock new financial opportunities with advanced features like Smart Vaults for goal-based savings and diversified lending for optimized returns. Explore DeFi with maximum control and flexibility.
 
-Run development server:
+## Tech Stack
+
+- **Framework:** [Next.js](https://nextjs.org)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com)
+- **Docs Framework**: [Fumadocs](https://fumadocs.vercel.app)
+
+## Prerequisites
+
+Required to install and run the software:
+
+- [npm](https://www.npmjs.com/get-npm)
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+## 🌟 Getting Started
+
+From the project folder, run these commands in console (terminal) to install dependencies and run the app:
 
 ```bash
+# Install the dependencies
+npm install
+# Run the app
 npm run dev
-# or
-pnpm dev
-# or
-yarn dev
 ```
 
-Open http://localhost:3000 with your browser to see the result.
-
-## Learn More
-
-To learn more about Next.js and Fumadocs, take a look at the following
-resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js
-  features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-- [Fumadocs](https://fumadocs.vercel.app) - learn about Fumadocs
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
