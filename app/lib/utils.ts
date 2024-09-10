@@ -33,7 +33,7 @@ export function constructMetadata({
             creator: '@nounsprotocol'
         },
         icons,
-        metadataBase: new URL('https://www.nounsprotocol.com'),
+        metadataBase: new URL('https://www.whitepaper.nounsprotocol.com'),
         ...(noIndex && {
             robots: {
                 index: false,
