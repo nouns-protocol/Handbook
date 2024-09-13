@@ -1,4 +1,4 @@
-# Nouns Protocol Whitepaper
+# Nouns Protocol Handbook
 
 Nouns Protocol empowers users to lend, borrow, and swap tokens across EVM chains. Unlock new financial opportunities with advanced features like Smart Vaults for goal-based savings and diversified lending for optimized returns. Explore DeFi with maximum control and flexibility.
 
