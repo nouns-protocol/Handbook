@@ -5,7 +5,7 @@ export const baseOptions: HomeLayoutProps = {
   nav: {
     title: (
       <>
-        <Image src='/logo/logo.svg' alt='Nouns Protocol' width={15} height={15} />
+        <Image src='/logo/logo.svg' alt='Nouns Protocol' width={20} height={20} />
         <span className='text-foreground'>Nouns Protocol</span>
       </>
     ),

@@ -3,4 +3,37 @@ title: Risk Management and Liquidation Mechanisms
 description: Explains how the protocol handles risk, including collateral liquidation during price fluctuations.
 ---
 
-TBD
+Nouns Protocol employs a robust **risk management** and **liquidation framework** to protect users and their assets during times of market volatility, ensuring a stable and secure ecosystem for lending and borrowing.
+
+#### **Risk Management Framework**
+
+To minimize risk, the protocol carefully evaluates collateralized assets and enforces strict parameters on lending and borrowing activities. These mechanisms are in place to prevent losses and ensure the safety of both lenders and borrowers:
+
+- **Loan-to-Value (LTV) Ratios**: The protocol applies specific LTV ratios for each type of collateral (tokens, NFTs, RWAs). These ratios define the maximum borrowing capacity, ensuring users maintain sufficient collateral to back their loans.
+- **Volatility Assessment**: Real-time monitoring of market fluctuations ensures that collateral assets are reassessed based on their risk profile, protecting lenders from sharp price drops.
+- **Diverse Collateral Support**: By supporting various types of collateral-tokens, NFTs, and RWAs-the protocol diversifies risk across multiple asset classes, preventing over-exposure to any single market.
+
+#### **Collateral Liquidation Mechanisms**
+
+In the event of sharp price fluctuations or a drop in the value of the collateralized assets, the protocol implements an automatic liquidation process to protect lenders from potential losses:
+
+- **Liquidation Threshold**: If the value of the collateral falls below the predefined liquidation threshold, the system triggers a liquidation process to recover the loaned amount.
+- **Partial Liquidation**: In cases where the collateral’s value drops, but not drastically, a partial liquidation may be initiated. This allows the protocol to recover part of the loan while preserving some of the borrower’s collateral.
+- **Fair Liquidation Auctions**: Collateral is liquidated in an orderly manner through fair and transparent auction systems to ensure market-based pricing, which benefits both lenders and borrowers by minimizing losses.
+- **Penalty Fees**: Borrowers may incur penalty fees upon liquidation to disincentivize defaults and ensure the protocol remains solvent and efficient.
+
+#### **Protecting Borrowers and Lenders**
+
+The protocol’s risk management tools are designed to protect both sides of the lending process:
+
+- **For Borrowers**: The system provides flexibility in managing their positions, allowing for margin calls and warnings before liquidation occurs, giving them time to top up collateral or repay the loan.
+- **For Lenders**: Lenders are safeguarded against potential losses due to market volatility by the automated liquidation mechanism, ensuring they can reclaim the borrowed amount in full, even in turbulent market conditions.
+
+#### **Cross-Chain Risk Management**
+
+For users lending or borrowing across multiple chains, Nouns Protocol enforces additional risk controls, such as:
+
+- **Chain-Specific Collateral Requirements**: Adjustments to LTV ratios based on the volatility and liquidity of tokens across different blockchain networks.
+- **Smart Vault Risk Monitoring**: For users utilizing Smart Vaults, the protocol actively optimizes the lending strategy, diversifying assets to maximize returns while minimizing exposure to risk on any single chain.
+
+By implementing rigorous risk management and liquidation mechanisms, Nouns Protocol ensures the safety and stability of its lending and borrowing ecosystem, empowering users to confidently engage in cross-chain DeFi opportunities.
